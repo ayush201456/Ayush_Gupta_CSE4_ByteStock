@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/person_image"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@color/white"
+        android:src="@drawable/ic_profile"/>
+
+    <TextView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/person_image"
+        android:text="Harshit Chaurasia"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/settings_btn"
+        app:layout_constraintTop_toBottomOf="@+id/person_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20sp"
+        android:text="Settings"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:backgroundTint="#9D00FF"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <Button
+        android:id="@+id/account_btn"
+        app:layout_constraintTop_toBottomOf="@+id/settings_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10sp"
+        android:backgroundTint="#9D00FF"
+        android:text="Accounts"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <Button
+        android:id="@+id/notification_btn"
+        app:layout_constraintTop_toBottomOf="@+id/account_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10sp"
+        android:backgroundTint="#9D00FF"
+        android:text="Notifications"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <Button
+        android:id="@+id/billing_btn"
+        app:layout_constraintTop_toBottomOf="@+id/notification_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10sp"
+        android:backgroundTint="#9D00FF"
+        android:text="Billing"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <Button
+        android:id="@+id/contact_btn"
+        app:layout_constraintTop_toBottomOf="@+id/billing_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10sp"
+        android:backgroundTint="#9D00FF"
+        android:text="Contact Us"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
