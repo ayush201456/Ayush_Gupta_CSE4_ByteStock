@@ -2,7 +2,6 @@
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/ayush201456/Ayush_Gupta_CSE4_ByteStock)
 ![GitHub contributors](https://img.shields.io/github/contributors/ayush201456/Ayush_Gupta_CSE4_ByteStock)
-![GitHub forks](https://img.shields.io/github/forks/ayush201456/Ayush_Gupta_CSE4_ByteStock?style=social)
 
 ByteStock is an intuitive Android application built for **small businesses** and **IT product vendors** to streamline their inventory management, billing, and customer interactions.
 
