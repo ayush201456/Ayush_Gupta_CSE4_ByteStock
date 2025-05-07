@@ -20,14 +20,6 @@ Whether you are tracking printers, laptops, or toner cartridges, ByteStock gives
 
 ---
 
-## 📸 Screenshots
-
-Login/Signup:
-
-
-
----
-
 ## 🛠 Tech Stack
 
 - **Kotlin** (Android development)
